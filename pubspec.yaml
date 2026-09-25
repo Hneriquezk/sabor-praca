@@ -1,0 +1,55 @@
+name: sabor_e_praca
+description: "Aplicativo do restaurante Sabor & Praça."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ícones do iOS
+  cupertino_icons: ^1.0.6
+
+  # Supabase
+  supabase_flutter: ^2.5.0
+
+  # Fontes do Google (opcional, mas útil)
+  google_fonts: ^6.2.1
+
+  # Formatação de datas/números
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ===== ASSETS =====
+  assets:
+    - assets/logo.png
+    - assets/img_boneco.png
+    - assets/img_topo_1.png
+    - assets/img_topo_2.png
+    - assets/img_topo_3.png
+    - assets/img_gioza.png
+    - assets/img_avocado.png
+    - assets/img_bowl_frango.png
+    - assets/img_massa_rustica.png
+    - assets/img_frango_grelhado.png
+    - assets/img_arroz_carreteiro.png
+    - assets/img_sopa_dourada.png
+    - assets/img_tofu_curry.png
+
+  # ===== FONTES (opcional, se quiser usar a fonte do protótipo) =====
+  # fonts:
+  #   - family: CooperBlack
+  #     fonts:
+  #       - asset: assets/fonts/CooperBlack.ttf
